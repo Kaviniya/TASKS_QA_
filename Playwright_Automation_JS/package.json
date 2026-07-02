@@ -1,0 +1,17 @@
+{
+  "name": "tichi-login-automation",
+  "version": "1.0.0",
+  "description": "Playwright (JavaScript) automation suite for the Tichi App Login page, built with Page Object Model.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
